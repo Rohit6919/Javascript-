@@ -11,3 +11,13 @@
 
 console.log(typeof null); //ouput ->Object 
 console.log(typeof undefined); //output-> undefined
+
+// primitive
+//  string boolean number null undefined symbol
+
+// non primitive
+// array object functions
+
+
+// stack Memory(primitive) ,Heap memory(non primitive)
+
