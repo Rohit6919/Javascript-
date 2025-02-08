@@ -54,11 +54,11 @@
 
 const promisefive = new Promise(function(resolve,reject){
     setTimeout(function(){
-                let error = true
+            let error = false
                 if(!error){
-                    resolve({username:"javascript",password: "123"})
+                resolve({username:"javascript",password: "123"})
                 }else{
-                    reject('error js went wrong')
+                reject('error js went wrong')
                 }
             },1000)
 })
@@ -67,3 +67,4 @@ async function consumepromisefive(){
    const response = await promisefive
    console.log(response);
 }
+consumepromisefive()
